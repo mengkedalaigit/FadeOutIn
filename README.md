@@ -20,6 +20,7 @@ All augmentations operate directly on AudioSegment objects.
 # 🔬 Our Contribution: FadeOutIn Perturbation
 
 FadeOutIn (a.k.a. FadeInOutPerturbation) is a novel augmentation proposed in this work.
+
 Idea: Speech loudness depends on the amplitude envelope, which decays with distance.
 Implementation: Random segments are selected; each fades out smoothly and then fades in again.
 
